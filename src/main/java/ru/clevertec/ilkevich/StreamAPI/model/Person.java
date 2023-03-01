@@ -1,4 +1,4 @@
-package ru.clevertec.ilkevich.model;
+package ru.clevertec.ilkevich.StreamAPI.model;
 
 import java.time.LocalDate;
 
@@ -107,7 +107,7 @@ public class Person {
     @Override
     public String toString() {
         return "Person{id=" + id + ", firstName='" + firstName + ", lastName='" + lastName + ", dateOfBirth="
-            + dateOfBirth + ", email='" + email + ", gender='" + gender + ", recruitmentGroup=" + recruitmentGroup
-            + ", city='" + city + ", occupation='" + occupation;
+                + dateOfBirth + ", email='" + email + ", gender='" + gender + ", recruitmentGroup=" + recruitmentGroup
+                + ", city='" + city + ", occupation='" + occupation;
     }
 }

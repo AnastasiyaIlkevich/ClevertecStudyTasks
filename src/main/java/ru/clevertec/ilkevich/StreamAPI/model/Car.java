@@ -1,4 +1,4 @@
-package ru.clevertec.ilkevich.model;
+package ru.clevertec.ilkevich.StreamAPI.model;
 
 public class Car {
     private int id;
@@ -91,14 +91,15 @@ public class Car {
     @Override
     public String toString() {
         return "Car{" +
-            "id=" + id +
-            ", vin='" + vin + '\'' +
-            ", carMake='" + carMake + '\'' +
-            ", carModel='" + carModel + '\'' +
-            ", releaseYear=" + releaseYear +
-            ", color='" + color + '\'' +
-            ", mass=" + mass +
-            ", price=" + price +
-            '}';
+                "id=" + id +
+                ", vin='" + vin + '\'' +
+                ", carMake='" + carMake + '\'' +
+                ", carModel='" + carModel + '\'' +
+                ", releaseYear=" + releaseYear +
+                ", color='" + color + '\'' +
+                ", mass=" + mass +
+                ", price=" + price +
+                '}';
     }
 }
+

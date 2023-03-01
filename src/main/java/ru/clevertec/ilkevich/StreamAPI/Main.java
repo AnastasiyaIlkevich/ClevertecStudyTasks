@@ -1,11 +1,8 @@
-package ru.clevertec.ilkevich;
+package ru.clevertec.ilkevich.StreamAPI;
 
-import ru.clevertec.ilkevich.model.Animal;
-import ru.clevertec.ilkevich.model.Car;
-import ru.clevertec.ilkevich.model.Flower;
-import ru.clevertec.ilkevich.model.House;
-import ru.clevertec.ilkevich.model.Person;
-import ru.clevertec.ilkevich.util.Util;
+
+import ru.clevertec.ilkevich.StreamAPI.model.*;
+import ru.clevertec.ilkevich.StreamAPI.util.Util;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -15,8 +12,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Main {
-
-    private static final String ORIGIN_ANIMAL_JAPANESE = "Japanese";
+   private static final String ORIGIN_ANIMAL_JAPANESE = "Japanese";
     private static final String ORIGIN_ANIMAL_HUNGARIAN = "Hungarian";
     private static final String GENDER_FEMALE = "Female";
     private static final String GENDER_MALE = "Male";

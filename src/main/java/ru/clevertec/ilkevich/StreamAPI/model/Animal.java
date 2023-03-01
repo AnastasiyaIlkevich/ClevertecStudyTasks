@@ -1,4 +1,4 @@
-package ru.clevertec.ilkevich.model;
+package ru.clevertec.ilkevich.StreamAPI.model;
 
 public class Animal {
     private int id;
@@ -64,6 +64,6 @@ public class Animal {
     @Override
     public String toString() {
         return "Animal{id=" + id + ", bread='" + bread + "', age=" + age + ", origin='" + origin + "', gender='"
-            + gender +  "'}";
+                + gender +  "'}";
     }
 }

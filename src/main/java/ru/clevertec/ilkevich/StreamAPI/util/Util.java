@@ -1,14 +1,11 @@
-package ru.clevertec.ilkevich.util;
+package ru.clevertec.ilkevich.StreamAPI.util;
 
-import ru.clevertec.ilkevich.model.Animal;
-import ru.clevertec.ilkevich.model.Car;
-import ru.clevertec.ilkevich.model.Flower;
-import ru.clevertec.ilkevich.model.House;
-import ru.clevertec.ilkevich.model.Person;
+
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JSR310Module;
+import ru.clevertec.ilkevich.StreamAPI.model.*;
 
 import java.io.File;
 import java.io.IOException;
@@ -46,17 +43,17 @@ public class Util {
     public static List<House> getHouses() throws IOException {
         List<Person> personList = getPersons();
         return List.of(
-            new House(1, "Hospital", personList.subList(0, 40)),
-            new House(2, "Civil building", personList.subList(41, 141)),
-            new House(3, "Civil building", personList.subList(142, 200)),
-            new House(4, "Civil building", personList.subList(201, 299)),
-            new House(5, "Civil building", personList.subList(300, 399)),
-            new House(6, "Civil building", personList.subList(400, 499)),
-            new House(7, "Civil building", personList.subList(500, 599)),
-            new House(8, "Civil building", personList.subList(600, 699)),
-            new House(9, "Civil building", personList.subList(700, 799)),
-            new House(9, "Civil building", personList.subList(800, 899)),
-            new House(9, "Civil building", personList.subList(900, 999))
+                new House(1, "Hospital", personList.subList(0, 40)),
+                new House(2, "Civil building", personList.subList(41, 141)),
+                new House(3, "Civil building", personList.subList(142, 200)),
+                new House(4, "Civil building", personList.subList(201, 299)),
+                new House(5, "Civil building", personList.subList(300, 399)),
+                new House(6, "Civil building", personList.subList(400, 499)),
+                new House(7, "Civil building", personList.subList(500, 599)),
+                new House(8, "Civil building", personList.subList(600, 699)),
+                new House(9, "Civil building", personList.subList(700, 799)),
+                new House(9, "Civil building", personList.subList(800, 899)),
+                new House(9, "Civil building", personList.subList(900, 999))
         );
     }
 
