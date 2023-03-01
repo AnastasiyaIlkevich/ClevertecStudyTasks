@@ -1,6 +1,6 @@
 package ru.clevertec.ilkevich.StreamAPI.model;
 
-import ru.clevertec.ilkevich.model.Person;
+
 
 import java.util.List;
 
